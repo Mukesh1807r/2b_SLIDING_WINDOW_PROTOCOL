@@ -9,7 +9,8 @@
 6. Stop the Program
 ## PROGRAM:
 Client:
-```import socket
+```python
+import socket
 s=socket.socket()
 s.bind(('localhost',8000))
 s.listen(5)
@@ -29,7 +30,8 @@ while True:
            i+=s
 ```
 Server:
-```import socket
+```python
+import socket
 s=socket.socket()
 s.connect(('localhost',8000))
 while True: 
